@@ -5,3 +5,5 @@
 <a href="https://codeclimate.com/github/Scarecrow2510/python-project-49/maintainability"><img src="https://api.codeclimate.com/v1/badges/33b0714d6037921a4e61/maintainability" /></a>
 
 https://asciinema.org/a/xOKBSZHiksQtMouitMdoSCqjU
+
+https://asciinema.org/a/MOQJ8OcBmmXO5XdkjHVg7CYv3
