@@ -9,3 +9,5 @@ https://asciinema.org/a/xOKBSZHiksQtMouitMdoSCqjU   #brain-even
 https://asciinema.org/a/MOQJ8OcBmmXO5XdkjHVg7CYv3   #brain-calc
 
 https://asciinema.org/a/eiCtjxIQR7CDFU8EUtPCVNNWc   #brain-gcd
+
+https://asciinema.org/a/El9KKDYC9wcG1OTZsUBzLPh6Q   #brain-progression
