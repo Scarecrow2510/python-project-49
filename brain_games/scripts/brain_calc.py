@@ -1,4 +1,3 @@
-
 from random import randint
 from random import choice
 import prompt
@@ -20,7 +19,7 @@ def main():
             ran2 = randint(0, 99)
             rmo = choice(math_op)
             term = str(ran1) + ' ' + rmo + ' ' + str(ran2)
-            print('Question: ' + str(term)) 
+            print('Question: ' + str(term))
             answer = input('Your answer: ')
 
             if rmo == '+':
@@ -30,7 +29,8 @@ def main():
                     i += 1
                     cor_sum += 1
                 else:
-                    print('\'' + str(answer) + '\' is wrong answer ;(. Correct answer was \'' + str(result) + '\'.')
+                    print('\'' + str(answer) + '\' is wrong answer ;(. '
+                          'Correct answer was \'' + str(result) + '\'.')
                     print('Let\'s try again, ' + name + '!')
                     break
 
@@ -41,7 +41,8 @@ def main():
                     i += 1
                     cor_sum += 1
                 else:
-                    print('\'' + str(answer) + '\' is wrong answer ;(. Correct answer was \'' + str(result) + '\'.')
+                    print('\'' + str(answer) + '\' is wrong answer ;(. '
+                          'Correct answer was \'' + str(result) + '\'.')
                     print('Let\'s try again, ' + name + '!')
                     break
 
@@ -52,7 +53,8 @@ def main():
                     i += 1
                     cor_sum += 1
                 else:
-                    print('\'' + str(answer) + '\' is wrong answer ;(. Correct answer was \'' + str(result) + '\'.')
+                    print('\'' + str(answer) + '\' is wrong answer ;(. '
+                          'Correct answer was \'' + str(result) + '\'.')
                     print('Let\'s try again, ' + name + '!')
                     break
 

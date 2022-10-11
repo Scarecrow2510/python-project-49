@@ -26,7 +26,8 @@ def main():
                 i += 1
                 cor_sum += 1
             else:
-                print('\'' + answer + '\' is wrong answer ;(. Correct answer was \'' + str(gcd) + '\'.')
+                print('\'' + answer + '\' is wrong answer ;(. '
+                      'Correct answer was \'' + str(gcd) + '\'.')
                 print('Let\'s try again, ' + name + '!')
                 break
 

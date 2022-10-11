@@ -45,8 +45,9 @@ def main():
                     break
 
                 else:
-                    print(answer + ' is wrong answer ;(. Correct answer was "yes".\n'
-                                   'Let\'s try again, ' + name + '!')
+                    print(answer + ' is wrong answer ;(. '
+                          'Correct answer was "yes".\n')
+                    print('Let\'s try again, ' + name + '!')
                     break
 
         if Cor_Sum == 3:

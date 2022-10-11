@@ -4,6 +4,7 @@ import prompt
 
 def main():
     print("Welcome to the Brain Games!")
+
     def welcome_user():
         name = prompt.string('May I have your name? ')
         print('Hello, ' + name + '!')
@@ -39,7 +40,8 @@ def main():
                 i += 1
                 cor_sum += 1
             else:
-                print('\'' + str(user_answ) + '\' is wrong answer ;(. Correct answer was \'' + str(answer) + '\'.')
+                print('\'' + str(user_answ) + '\' is wrong answer ;(. '
+                      'Correct answer was \'' + str(answer) + '\'.')
                 print('Let\'s try again, ' + name + '!')
                 break
 
