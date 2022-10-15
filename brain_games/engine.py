@@ -19,7 +19,7 @@ def run_game(game_name):
         if user_answer != correct_answer:
             print(f"'{user_answer}' is wrong answer ;(. "
                   f"Correct answer was '{correct_answer}'.\n"
-                  f"Let\'s try again again, {user_name}!")
+                  f"Let\'s try again, {user_name}!")
             break
         print('Correct!')
         round_num += 1
