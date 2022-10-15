@@ -9,7 +9,7 @@ description = 'Answer "yes" if given number is prime. ' \
 def is_prime(number):
     if number == 1:
         return 'no'
-    for i in range(2, (number // 2 + 1)):i
+    for i in range(2, (number // 2 + 1)):
         if number % i == 0:
             return 'no'
     return 'yes'
