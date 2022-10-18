@@ -13,5 +13,5 @@ def make_game():
     operand_second = randint(MIN_NUMBER, MAX_NUMBER)
     operation, operator = choice([(add, '+'), (sub, '-'), (mul, '*'), ])
     correct_answer = operation(operand_first, operand_second)
-    question = f"{operand_first} {operator} {operand_second}"
+    question = f'{operand_first} {operator} {operand_second}'
     return question, str(correct_answer)
