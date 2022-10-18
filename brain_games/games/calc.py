@@ -3,14 +3,14 @@
 from random import choice, randint
 from operator import add, sub, mul
 
-description = 'What is the result of the expression?'
+DESCRIPTION = 'What is the result of the expression?'
+MIN_NUMBER = 1
+MAX_NUMBER = 100
 
 
-def make_all_game():
-    min_number = 1
-    max_number = 100
-    operand_first = randint(min_number, max_number)
-    operand_second = randint(min_number, max_number)
+def make_game():
+    operand_first = randint(MIN_NUMBER, MAX_NUMBER)
+    operand_second = randint(MIN_NUMBER, MAX_NUMBER)
     operation, operator = choice([(add, '+'), (sub, '-'), (mul, '*'), ])
     correct_answer = operation(operand_first, operand_second)
     question = f"{operand_first} {operator} {operand_second}"
